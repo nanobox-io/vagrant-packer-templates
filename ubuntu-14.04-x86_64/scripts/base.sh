@@ -2,7 +2,7 @@
 
 # Update the box
 apt-get -y update >/dev/null
-apt-get -y install curl >/dev/null
+apt-get -y install facter build-essential curl >/dev/null
 
 # Set up sudo
 echo 'vagrant ALL=NOPASSWD:ALL' > /etc/sudoers.d/vagrant
